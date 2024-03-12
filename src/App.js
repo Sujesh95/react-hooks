@@ -3,6 +3,7 @@ import UseStateDemo from "./UseState";
 import UseEffectDemo from "./UseEffectDemo";
 import UseEffectWindowResize from "./UseEffectWindowResize";
 import UseContext from "./context/UseContext";
+import UseRef from "./UseRef";
 
 const App = () => {
   return (
@@ -14,6 +15,8 @@ const App = () => {
       <UseEffectWindowResize />
       <hr />
       <UseContext />
+      <hr />
+      <UseRef />
       <hr />
     </>
   );
