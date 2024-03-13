@@ -4,6 +4,7 @@ import UseEffectDemo from "./UseEffectDemo";
 import UseEffectWindowResize from "./UseEffectWindowResize";
 import UseContext from "./context/UseContext";
 import UseRef from "./UseRef";
+import UseMemo from "./UseMemo";
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
       <UseContext />
       <hr />
       <UseRef />
+      <hr />
+      <UseMemo />
       <hr />
     </>
   );
