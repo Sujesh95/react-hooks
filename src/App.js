@@ -5,6 +5,7 @@ import UseEffectWindowResize from "./UseEffectWindowResize";
 import UseContext from "./context/UseContext";
 import UseRef from "./UseRef";
 import UseMemo from "./UseMemo";
+import UseCallback from "./UseCallback/UseCallback";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
       <UseRef />
       <hr />
       <UseMemo />
+      <hr />
+      <UseCallback />
       <hr />
     </>
   );
