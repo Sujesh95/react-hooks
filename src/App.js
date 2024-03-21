@@ -7,6 +7,7 @@ import UseRef from "./UseRef";
 import UseMemo from "./UseMemo";
 import UseCallback from "./UseCallback/UseCallback";
 import UseReducer from "./UseReducer";
+import UseTransition from "./UseTransition";
 
 const App = () => {
   return (
@@ -26,6 +27,8 @@ const App = () => {
       <UseCallback />
       <hr />
       <UseReducer />
+      <hr />
+      <UseTransition />
       <hr />
     </>
   );
