@@ -8,6 +8,7 @@ import UseMemo from "./UseMemo";
 import UseCallback from "./UseCallback/UseCallback";
 import UseReducer from "./UseReducer";
 import UseTransition from "./UseTransition";
+import UseDeferredValue from "./UseDeferredValue";
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
       <UseReducer />
       <hr />
       <UseTransition />
+      <hr />
+      <UseDeferredValue />
       <hr />
     </>
   );
