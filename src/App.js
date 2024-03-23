@@ -9,6 +9,7 @@ import UseCallback from "./UseCallback/UseCallback";
 import UseReducer from "./UseReducer";
 import UseTransition from "./UseTransition";
 import UseDeferredValue from "./UseDeferredValue";
+import UseLayoutEffect from "./UseLayoutEffect";
 
 const App = () => {
   return (
@@ -32,6 +33,8 @@ const App = () => {
       <UseTransition />
       <hr />
       <UseDeferredValue />
+      <hr />
+      <UseLayoutEffect />
       <hr />
     </>
   );
