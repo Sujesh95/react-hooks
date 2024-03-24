@@ -1,4 +1,4 @@
-import React from "react";
+import React, { StrictMode } from "react";
 import UseStateDemo from "./UseState";
 import UseEffectDemo from "./UseEffectDemo";
 import UseEffectWindowResize from "./UseEffectWindowResize";
@@ -10,10 +10,11 @@ import UseReducer from "./UseReducer";
 import UseTransition from "./UseTransition";
 import UseDeferredValue from "./UseDeferredValue";
 import UseLayoutEffect from "./UseLayoutEffect";
+import UseDebugValue from "./UseDebugValue/UseDebugValue";
 
 const App = () => {
   return (
-    <>
+    <StrictMode>
       <UseStateDemo />
       <hr />
       <UseEffectDemo />
@@ -36,7 +37,9 @@ const App = () => {
       <hr />
       <UseLayoutEffect />
       <hr />
-    </>
+      <UseDebugValue />
+      <hr />
+    </StrictMode>
   );
 };
 
