@@ -11,6 +11,7 @@ import UseTransition from "./UseTransition";
 import UseDeferredValue from "./UseDeferredValue";
 import UseLayoutEffect from "./UseLayoutEffect";
 import UseDebugValue from "./UseDebugValue/UseDebugValue";
+import UseImperativeHandle from "./UseImperativeHandle";
 
 const App = () => {
   return (
@@ -38,6 +39,8 @@ const App = () => {
       <UseLayoutEffect />
       <hr />
       <UseDebugValue />
+      <hr />
+      <UseImperativeHandle />
       <hr />
     </StrictMode>
   );
