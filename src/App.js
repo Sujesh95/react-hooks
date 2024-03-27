@@ -12,6 +12,7 @@ import UseDeferredValue from "./UseDeferredValue";
 import UseLayoutEffect from "./UseLayoutEffect";
 import UseDebugValue from "./UseDebugValue/UseDebugValue";
 import UseImperativeHandle from "./UseImperativeHandle";
+import UseId from "./UseId";
 
 const App = () => {
   return (
@@ -41,6 +42,8 @@ const App = () => {
       <UseDebugValue />
       <hr />
       <UseImperativeHandle />
+      <hr />
+      <UseId />
       <hr />
     </StrictMode>
   );
