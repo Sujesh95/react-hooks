@@ -1,22 +1,23 @@
 import React, { StrictMode } from "react";
-import UseStateDemo from "./UseState";
-import UseEffectDemo from "./UseEffectDemo";
-import UseEffectWindowResize from "./UseEffectWindowResize";
-import UseContext from "./context/UseContext";
-import UseRef from "./UseRef";
-import UseMemo from "./UseMemo";
-import UseCallback from "./UseCallback/UseCallback";
-import UseReducer from "./UseReducer";
-import UseTransition from "./UseTransition";
-import UseDeferredValue from "./UseDeferredValue";
-import UseLayoutEffect from "./UseLayoutEffect";
-import UseDebugValue from "./UseDebugValue/UseDebugValue";
-import UseImperativeHandle from "./UseImperativeHandle";
-import UseId from "./UseId";
+import UseStateDemo from "./main-hooks/UseState";
+import UseEffectDemo from "./main-hooks/UseEffectDemo";
+import UseEffectWindowResize from "./main-hooks/UseEffectWindowResize";
+import UseContext from "./main-hooks/context/UseContext";
+import UseRef from "./main-hooks/UseRef";
+import UseMemo from "./main-hooks/UseMemo";
+import UseCallback from "./main-hooks/UseCallback/UseCallback";
+import UseReducer from "./main-hooks/UseReducer";
+import UseTransition from "./main-hooks/UseTransition";
+import UseDeferredValue from "./main-hooks/UseDeferredValue";
+import UseLayoutEffect from "./main-hooks/UseLayoutEffect";
+import UseDebugValue from "./main-hooks/UseDebugValue/UseDebugValue";
+import UseImperativeHandle from "./main-hooks/UseImperativeHandle";
+import UseId from "./main-hooks/UseId";
 
 const App = () => {
   return (
     <StrictMode>
+      <h1 className="hooks-heading">Hooks</h1>
       <UseStateDemo />
       <hr />
       <UseEffectDemo />
@@ -45,6 +46,7 @@ const App = () => {
       <hr />
       <UseId />
       <hr />
+      <h1 className="hooks-heading">Custom hooks</h1>
     </StrictMode>
   );
 };

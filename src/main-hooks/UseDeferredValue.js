@@ -14,7 +14,7 @@ const UseDeferredValue = () => {
 
   return (
     <>
-      <h1>useDeferredValue demo</h1>
+      <h2>useDeferredValue demo</h2>
       <input
         type="text"
         value={name}

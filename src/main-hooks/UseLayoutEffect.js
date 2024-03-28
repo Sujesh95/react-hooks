@@ -21,7 +21,7 @@ const UseLayoutEffect = () => {
 
   return (
     <div style={{ position: "relative" }}>
-      <h1>useLayoutEffect demo</h1>
+      <h2>useLayoutEffect demo</h2>
       <button ref={buttonRef} onClick={() => setShow((prev) => !prev)}>
         show popup
       </button>

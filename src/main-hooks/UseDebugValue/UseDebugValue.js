@@ -7,7 +7,7 @@ const UseDebugValue = () => {
 
   return (
     <>
-      <h1> useDebugValue hook </h1>
+      <h2> useDebugValue hook </h2>
       First:{" "}
       <input
         type="text"

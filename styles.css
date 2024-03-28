@@ -1,3 +1,9 @@
 button:focus {
     border: 2px solid green
 }
+
+h1.hooks-heading {
+    background-color: #33A854;
+    text-align: center;
+    color: white;
+}

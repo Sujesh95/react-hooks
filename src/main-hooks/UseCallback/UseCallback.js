@@ -23,7 +23,7 @@ const UseCallback = () => {
 
   return (
     <div style={themeStyles}>
-      <h1>useCallback demo</h1>
+      <h2>useCallback demo</h2>
       <input
         type="number"
         value={number}

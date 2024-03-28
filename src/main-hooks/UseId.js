@@ -19,7 +19,7 @@ const Form = () => {
 const UseId = () => {
   return (
     <>
-      <h1>useId demo</h1>
+      <h2>useId demo</h2>
       <Form />
       <article style={{ marginBlock: "1rem" }}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

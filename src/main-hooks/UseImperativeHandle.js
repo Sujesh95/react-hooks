@@ -24,7 +24,7 @@ const Modal = forwardRef(({ open }, ref) => {
 
   return (
     <div>
-      <h1>Modal component</h1>
+      <h3>Modal component</h3>
       <button ref={closeRef}>&times;</button>
       <button ref={confirmRef}>Confirm</button>
       <button ref={denyRef}>Deny</button>
@@ -38,7 +38,7 @@ const UseImperativeHandle = () => {
 
   return (
     <div>
-      <h1>useImperativeHandle demo</h1>
+      <h2>useImperativeHandle demo</h2>
       <button onClick={() => setOpen((p) => !p)}>
         {open ? "Close" : "Open"} modal
       </button>

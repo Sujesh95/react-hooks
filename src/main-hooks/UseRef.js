@@ -28,7 +28,7 @@ const UseRef = () => {
 
   return (
     <>
-      <h1>useRef Demo</h1>
+      <h2>useRef Demo</h2>
       <input
         ref={inputRef}
         type="text"

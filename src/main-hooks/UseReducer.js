@@ -47,7 +47,7 @@ const UseReducer = () => {
 
   return (
     <>
-      <h1>useReducer hook</h1>
+      <h2>useReducer hook</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"

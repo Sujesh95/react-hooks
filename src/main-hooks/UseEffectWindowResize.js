@@ -17,7 +17,7 @@ const UseEffectWindowResize = () => {
 
   return (
     <div>
-      <h1>UseEffect window resize</h1>
+      <h2>UseEffect window resize</h2>
       <p>{windowWidth}</p>
     </div>
   );

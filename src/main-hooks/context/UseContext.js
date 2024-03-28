@@ -30,7 +30,7 @@ const ThemedDiv = () => {
 const UseContext = () => {
   return (
     <ThemeContextProvider>
-      <h1>useContext demo</h1>
+      <h2>useContext demo</h2>
       <ThemedDiv />
     </ThemeContextProvider>
   );

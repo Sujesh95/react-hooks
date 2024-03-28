@@ -23,11 +23,11 @@ const UseEffectDemo = () => {
 
   return (
     <div>
-      <h1>useEffect demo</h1>
+      <h2>useEffect demo</h2>
       <button onClick={() => setResourceType("posts")}>Posts</button>
       <button onClick={() => setResourceType("users")}>Users</button>
       <button onClick={() => setResourceType("comments")}>Comments</button>
-      <h2>{resourceType}</h2>
+      <h3>{resourceType}</h3>
       {data.slice(0, 3).map((d) => {
         return (
           <p key={d.id}>

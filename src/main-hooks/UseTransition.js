@@ -32,7 +32,7 @@ const UseTransition = () => {
 
   return (
     <>
-      <h1>useTransition demo</h1>
+      <h2>useTransition demo</h2>
       <input type="text" value={name} onChange={handleChange} />
       <button ref={buttonRef}>Set focus</button>
       {isPending

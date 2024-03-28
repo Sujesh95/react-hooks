@@ -18,7 +18,7 @@ const UseStateDemo = () => {
 
   return (
     <div>
-      <h1> useState demo </h1>
+      <h2> useState demo </h2>
       <button onClick={decrementCounter}>-</button>
       <span>{count}</span>
       <button onClick={incrementCounter}>+</button>

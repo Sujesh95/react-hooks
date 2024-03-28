@@ -29,7 +29,7 @@ const UseMemo = () => {
 
   return (
     <>
-      <h1>useMemo demo</h1>
+      <h2>useMemo demo</h2>
       <input
         type="number"
         value={number}
