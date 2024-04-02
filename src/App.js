@@ -13,7 +13,8 @@ import UseLayoutEffect from "./main-hooks/UseLayoutEffect";
 import UseDebugValue from "./main-hooks/UseDebugValue/UseDebugValue";
 import UseImperativeHandle from "./main-hooks/UseImperativeHandle";
 import UseId from "./main-hooks/UseId";
-import Input from "./custom-hooks/local-storage/Input";
+import UseLocalStorage from "./custom-hooks/local-storage/Input";
+import UseToggle from "./custom-hooks/toggle";
 
 const App = () => {
   return (
@@ -48,8 +49,9 @@ const App = () => {
       <UseId />
       <hr />
       <h1 className="hooks-heading">Custom hooks</h1>
-      <Input />
+      <UseLocalStorage />
       <hr />
+      <UseToggle />
     </StrictMode>
   );
 };
