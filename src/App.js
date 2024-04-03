@@ -15,6 +15,7 @@ import UseImperativeHandle from "./main-hooks/UseImperativeHandle";
 import UseId from "./main-hooks/UseId";
 import UseLocalStorage from "./custom-hooks/local-storage/Input";
 import UseToggle from "./custom-hooks/toggle";
+import TimeoutComponent from "./custom-hooks/timeout";
 
 const App = () => {
   return (
@@ -52,6 +53,8 @@ const App = () => {
       <UseLocalStorage />
       <hr />
       <UseToggle />
+      <hr />
+      <TimeoutComponent />
     </StrictMode>
   );
 };
