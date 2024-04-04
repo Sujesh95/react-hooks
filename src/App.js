@@ -16,6 +16,7 @@ import UseId from "./main-hooks/UseId";
 import UseLocalStorage from "./custom-hooks/local-storage/Input";
 import UseToggle from "./custom-hooks/toggle";
 import TimeoutComponent from "./custom-hooks/timeout";
+import DebounceComponent from "./custom-hooks/debounce/DebounceComponent";
 
 const App = () => {
   return (
@@ -55,6 +56,8 @@ const App = () => {
       <UseToggle />
       <hr />
       <TimeoutComponent />
+      <hr />
+      <DebounceComponent />
     </StrictMode>
   );
 };
