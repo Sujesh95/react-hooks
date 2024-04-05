@@ -17,10 +17,11 @@ import UseLocalStorage from "./custom-hooks/local-storage/Input";
 import UseToggle from "./custom-hooks/toggle";
 import TimeoutComponent from "./custom-hooks/timeout";
 import DebounceComponent from "./custom-hooks/debounce/DebounceComponent";
+import UpdateEffectComponent from "./custom-hooks/update-effect/UpdateEffectComponent";
 
 const App = () => {
   return (
-    <StrictMode>
+    <>
       <h1 className="hooks-heading">Hooks</h1>
       <UseStateDemo />
       <hr />
@@ -58,7 +59,9 @@ const App = () => {
       <TimeoutComponent />
       <hr />
       <DebounceComponent />
-    </StrictMode>
+      <hr />
+      <UpdateEffectComponent />
+    </>
   );
 };
 
