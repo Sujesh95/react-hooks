@@ -18,6 +18,7 @@ import UseToggle from "./custom-hooks/toggle";
 import TimeoutComponent from "./custom-hooks/timeout";
 import DebounceComponent from "./custom-hooks/debounce/DebounceComponent";
 import UpdateEffectComponent from "./custom-hooks/update-effect/UpdateEffectComponent";
+import ArrayComponent from "./custom-hooks/array/ArrayComponent";
 
 const App = () => {
   return (
@@ -61,6 +62,8 @@ const App = () => {
       <DebounceComponent />
       <hr />
       <UpdateEffectComponent />
+      <hr />
+      <ArrayComponent />
     </>
   );
 };
