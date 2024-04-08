@@ -19,6 +19,7 @@ import TimeoutComponent from "./custom-hooks/timeout";
 import DebounceComponent from "./custom-hooks/debounce/DebounceComponent";
 import UpdateEffectComponent from "./custom-hooks/update-effect/UpdateEffectComponent";
 import ArrayComponent from "./custom-hooks/array/ArrayComponent";
+import PreviousComponent from "./custom-hooks/previous/PreviousComponent";
 
 const App = () => {
   return (
@@ -64,6 +65,8 @@ const App = () => {
       <UpdateEffectComponent />
       <hr />
       <ArrayComponent />
+      <hr />
+      <PreviousComponent />
     </>
   );
 };
